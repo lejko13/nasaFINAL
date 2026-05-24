@@ -9,9 +9,9 @@ import { useMediaQuery } from "react-responsive";
 const LOGO_URL = "https://media.base44.com/images/public/user_69dcd0ab7f89db2e942fbb31/475ed3edd_Snimkaobrazovky2026-05-22o192922.png";
 
 
-const tmava = '/public/stmava.png'
+const tmava = '/stmava.png'
 
-const svetle = '/public/svetla.png'
+const svetle = '/svetla.png'
 const navLinks = [
   { label: 'Menu', href: '#menu' },
   { label: 'Galéria', href: '#gallery' },

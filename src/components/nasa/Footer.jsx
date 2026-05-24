@@ -5,9 +5,9 @@ const LOGO_URL = "https://media.base44.com/images/public/user_69dcd0ab7f89db2e94
 
 export default function Footer() {
 
-  const tmava = '/public/stmava.png'
+  const tmava = '/stmava.png'
 
-const svetle = '/public/svetla.png'
+const svetle = '/svetla.png'
 
   const { theme, toggleTheme } = useTheme();
 
