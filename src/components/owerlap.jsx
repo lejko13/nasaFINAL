@@ -80,15 +80,7 @@ export default function ProjectLightbox({ projects, activeIndex, onClose, onNavi
   }
   transition={isDesktop ? { duration: 0.3 } : undefined}
   className="relative max-w-2xl w-full mx-16 rounded-2xl overflow-hidden"
-  style={{
-    border: isDesktop
-      ? '1px solid rgba(255,255,255,0.06)'
-      : '1px solid rgba(204,1,0,0.25)',
-
-    boxShadow: !isDesktop
-      ? '0 0 30px rgba(204,1,0,0.08)'
-      : 'none',
-  }}
+ 
   onClick={e => e.stopPropagation()}
 >
    <img
